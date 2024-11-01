@@ -1,0 +1,72 @@
+#roadmap_items .widefat td {
+    padding:7px;
+}
+#roadmap_items .inside {
+    margin:13px;
+}
+
+#roadmap_add_item .clear {
+    clear:both;
+}
+#roadmap_add_item label,
+#roadmap_edit_item label {
+    float:left;
+    width:20%;
+    font-weight:bold;
+    font-size: 11px;
+}
+#roadmap_add_item .input label,
+#roadmap_edit_item .input label {
+    font-weight:normal;
+    float:none;
+}
+#roadmap_add_item .input,
+#roadmap_edit_item .input {
+    float:right;
+    width:80%;
+}
+#roadmap_add_item li,
+#roadmap_edit_item li {
+    margin-bottom:10px;
+}
+#roadmap_add_item  p.info,
+#roadmap_edit_item p.info {
+    margin:0;
+}
+#roadmap_add_item li.title input,
+#roadmap_edit_item li.title input {
+    width:300px;
+}
+#roadmap_add_item li.desc textarea,
+#roadmap_edit_item li.desc textarea {
+    width:300px;
+    height:100px;
+}
+#roadmap_add_item li.dates .col,
+#roadmap_edit_item li.dates .col {
+    float:left;
+    width:150px;
+    margin-right:20px;
+}
+#roadmap_add_item li.dates .input label,
+#roadmap_edit_item li.dates .input label {
+    display:block;
+    width:100%;
+}
+#roadmap_add_item li.dates input,
+#roadmap_edit_item li.dates input {
+    width:100%;
+}
+#roadmap_add_item li.last input,
+#roadmap_edit_item li.last input {
+    margin-left:20%;
+}
+#roadmap_add_item li.people-involved li,
+#roadmap_edit_item li.people-involved li {
+    display:inline-block;
+    margin:0 10px 5px 0;
+}
+
+#roadmap_edit_item {
+    display:none;
+}
